@@ -30,7 +30,7 @@ const Calculator = {
 
 function actionApplyer(num,array) {
   let output = num
-  for (const fun of array) {
+  for (const fund of array) {
     output = fun(output)
   }
   return output
